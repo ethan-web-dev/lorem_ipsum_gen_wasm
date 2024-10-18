@@ -1,0 +1,15 @@
+[package]
+name = "lorem_ipsum_gen_wasm"
+version = "0.1.0"
+edition = "2021"
+
+description = "A WebAssembly module for generating Lorem Ipsum text"
+repository = "https://github.com/ethan-web-dev/lorem_ipsum_gen_wasm"
+license = "MIT"
+
+[dependencies]
+lipsum = "0.9.1"
+wasm-bindgen = "0.2"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
